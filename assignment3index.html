@@ -8,10 +8,13 @@
 
 <body>
 
-  <div ng-controller="AlertDemoCtrl">
-  <alert ng-repeat="alert in alerts" type="alert.type" close="closeAlert($index)">{{alert.msg}}</alert>
-  <button class='btn' ng-click="addAlert()">Add Alert</button>
-  </div>
+  <div ng-controller="CollapseDemoCtrl">
+   <button class="btn" ng-click="isCollapsed = !isCollapsed">Toggle collapse</button>
+	<hr>
+	<div collapse="isCollapsed">
+		<div class="well well-large">Some content</div> 
+	</div>
+</div>
 
 </body>
 </html>
