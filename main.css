@@ -1,0 +1,139 @@
+.navbar {
+height: 86px;
+margin-bottom: 0;
+}
+
+.navbar .navbar-inner {
+  background: #fff;
+  color: #000;
+  box-shadow: none;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  text-shadow: none;
+  padding: 20px 0 10px;
+}
+.navbar .container {
+  width: 940px;
+}
+
+.navbar .navbar-inner .btn-navbar {
+  margin-top: 8px;
+}
+
+.navbar .brand {
+float: left;
+padding: 8px 20px 0px;
+margin-left: -5px;
+font-size: 20px;
+font-weight: 200;
+line-height: 1;
+color: #fff;
+border:2px solid black;
+}
+
+.navbar .nav {
+  position: relative;
+  left: 0;
+  display: block;
+  float: left;
+  margin: 0 10px 0 0;
+  list-style: none;
+}
+
+.navbar .nav li a {
+  color: black;
+  text-decoration: none;
+  border:2px solid black;
+  padding-right: 32px;
+  padding-left: 32px;
+  background:#dddddd;
+  width:300px;
+  border-radius:25px;
+  -moz-border-radius:25px; /* Old Firefox */
+}
+
+
+li{
+   float: left;
+   font-size: 16px;
+    color: #444;
+    line-height: 1.5;
+   margin: 0 0 1.2em;
+  }
+  
+hr{
+  width: 150%;
+ }
+
+#sliderFrame {
+position: relative;
+width: 951px;
+margin: 0 auto;
+}
+
+#slider {
+  width: 651px;
+  height: 400px;
+  background: #fff url(loading.gif) no-repeat 50% 50%;
+  position: relative;
+  margin: 0 auto;
+  box-shadow: 0px 1px 5px #999999;
+  animation:myfirst 5s;
+  -moz-animation:myfirst 5s; /* Firefox */
+  -webkit-animation:myfirst 5s; /* Safari and Chrome */
+}
+
+@-moz-keyframes myfirst /* Firefox */
+{
+  from {background:red;}
+  to {background:yellow;}
+}
+
+@-webkit-keyframes myfirst /* Safari and Chrome */
+{
+  from {background:red;}
+  to {background:yellow;}
+}
+
+.text-center{
+  text-align:center;
+}
+
+.sliderFrame h1 {
+  font-size: 50px;
+  line-height: 1;
+  color: inherit;
+  letter-spacing: -1px;
+  
+}
+
+p {
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+   margin: 0 0 10px;
+}
+
+.square {
+  width: 100px;
+  height: "100%";
+  border:2px solid black;
+	background: white;
+}
+.roundrectangle{
+   color: black;
+  text-decoration: none;
+  border:2px solid black;
+  padding-right: 32px;
+  padding-left: 32px;
+  background:#dddddd;
+  width:300px;
+  border-radius:25px;
+  -moz-border-radius:25px; /* Old Firefox */
+  }
+
