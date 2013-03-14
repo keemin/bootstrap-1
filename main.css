@@ -1,7 +1,11 @@
 .navbar {
   height: 86px;
   margin-bottom: 0;
-
+ padding: 20px 0 10px;
+    position:fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030;
   overflow: visible;
  
 }
@@ -16,11 +20,7 @@
   -o-border-radius: 0;
   border-radius: 0;
   text-shadow: none;
-  padding: 20px 0 10px;
-    position:fixed;
-  right: 0;
-  left: 0;
-  z-index: 1030;
+  
   background:blue;
 }
 .navbar .container {
