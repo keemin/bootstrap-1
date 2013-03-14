@@ -147,3 +147,7 @@ p {
   margin-left: -100px;
  }
 
+a{
+  text-decoration:none;
+  color:black;
+}
