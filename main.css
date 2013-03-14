@@ -1,10 +1,7 @@
 .navbar {
   height: 86px;
   margin-bottom: 0;
-  position:fixed;
-  right: 0;
-  left: 0;
-  z-index: 1030;
+
   overflow: visible;
  
 }
@@ -20,10 +17,15 @@
   border-radius: 0;
   text-shadow: none;
   padding: 20px 0 10px;
+    position:fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  background:blue;
 }
 .navbar .container {
   width: 940px;
-   background:blue;
+   
 }
 
 .navbar .navbar-inner .btn-navbar {
