@@ -2,6 +2,7 @@
   height: 86px;
   margin-bottom: 0;
   position:fixed;
+  overflow: visible;
 }
 
 .navbar .navbar-inner {
