@@ -6,7 +6,7 @@
   left: 0;
   z-index: 1030;
   overflow: visible;
-  background:blue;
+ 
 }
 
 .navbar .navbar-inner {
@@ -23,6 +23,7 @@
 }
 .navbar .container {
   width: 940px;
+   background:blue;
 }
 
 .navbar .navbar-inner .btn-navbar {
