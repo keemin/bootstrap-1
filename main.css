@@ -1,6 +1,7 @@
 .navbar {
-height: 86px;
-margin-bottom: 0;
+  height: 86px;
+  margin-bottom: 0;
+  position:fixed;
 }
 
 .navbar .navbar-inner {
