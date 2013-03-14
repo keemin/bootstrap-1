@@ -123,7 +123,12 @@ p {
   width: 100px;
   height: "100%";
   border:2px solid black;
-	background: white;
+  background: white;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;
 }
 .roundrectangle{
   color: black;
@@ -135,10 +140,6 @@ p {
   width:300px;
   border-radius:25px;
   -moz-border-radius:25px; /* Old Firefox */
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  margin-top: -50px;
-  margin-left: -100px;
+
  }
 
