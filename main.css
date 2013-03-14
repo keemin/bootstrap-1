@@ -3,8 +3,8 @@
   margin-bottom: 0;
  padding: 20px 0 10px;
    
-  overflow: visible;
- background:yellow;
+  overflow: hidden;
+ 
 }
 
 .navbar .navbar-inner {
@@ -21,6 +21,7 @@
   right: 0;
   left: 0;
   z-index: 1030;
+  background:yellow;
   
 }
 .navbar .container {
