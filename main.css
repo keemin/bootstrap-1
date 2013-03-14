@@ -167,3 +167,10 @@ a{
   text-decoration:none;
   color:black;
 }
+
+.clear-navbar {
+margin-top: 60px;
+}
+.row {
+margin-left: -20px;
+}
