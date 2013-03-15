@@ -181,15 +181,13 @@ margin-left: -20px;
  width:960px;
  margin-right:auto;
  margin-left:auto;
-  background: navy;
-
+ 
 }
 
 .hero-unit{
  
  padding: 40px 0;
-
-position:fixed;
+ background: navy;
 right: 0;
 left: 0;
 z-index: 1030;
