@@ -13,6 +13,7 @@ left: 0;
 z-index: 1030;
 margin-bottom: 0;
 }
+
 .navbar {
 color: #999999;
 }
@@ -30,8 +31,9 @@ color: #999999;
   
   
 }
-.navbar .container {
-  width: 940px;
+.navbar .menu {
+  width: 960px;
+  height: 31px;
    
 }
 
