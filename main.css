@@ -181,13 +181,14 @@ margin-left: -20px;
  width:960px;
  margin-right:auto;
  margin-left:auto;
+  background: navy;
  position:relative;
 }
 
 .hero-unit{
  
  padding: 40px 0;
- background: navy;
+
 position:fixed;
 right: 0;
 left: 0;
