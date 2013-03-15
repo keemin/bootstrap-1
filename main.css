@@ -193,6 +193,8 @@ margin-left: -20px;
  text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);
  width:100%
  heigth:331px;
+ right:0;
+ left:0;
 }
 
 div{
