@@ -11,7 +11,7 @@ header, hgroup, nav, section {
  line-height: 1;
  color: #fff;
 }
-.navbar .brand a:active {
+.navbar .brand a:hover{
    background-color: #8A2E2E;
 }
 li{
