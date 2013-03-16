@@ -94,7 +94,8 @@ header p {
 	-moz-box-shadow: 10px 10px 20px #002624;
 	box-shadow: 10px 10px 20px #002624;
         border:groove ;
-       border-color:white;
+       border-color:black;
+       background:white;
 }
 
 
