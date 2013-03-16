@@ -7,7 +7,6 @@ header p {
  margin-bottom: 25px;
 }
 
-
 .navbar .brand {
  float: left;
  padding: 8px 20px 0px;
@@ -19,13 +18,8 @@ header p {
 
 .navbar-inner .container .nav .roundrectangle a {
    background-color: #8A2E2E;
-
    color:#fff;
 }
-
-
-
-
 
  .carousel {
  border: 10px solid #FFF;
@@ -49,7 +43,7 @@ header p {
 	font-family: 'Droid Serif', Georgia, serif;
 }
 
-.carshow h2 {
+.carshow h2 ,.carshow h2 a{
 	font-family: "Lobster two";
 	font-weight: normal;
 	color: white;
@@ -98,16 +92,6 @@ header p {
        background:white;
 }
 
-
-
-
-.square {
-  width: 100px;
-  height: "100%";
-  border:2px solid black;
-  background: white;
- 
-}
 .roundrectangle{
   color: white;
   text-decoration: none;
@@ -119,18 +103,12 @@ header p {
 
  }
  
- .centered{
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  margin-top: -50px;
-  margin-left: -100px;
- }
 
 a{
   text-decoration:none;
   color:black;
 }
+
 
 
 div{
