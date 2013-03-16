@@ -3,49 +3,6 @@ header, hgroup, nav, section {
 }
 
 
-
-.navbar .menu {
-  width: 960px;
-   
-}
-
-.navbar .navbar-inner .btn-navbar {
-  margin-top: 8px;
-}
-
-.navbar .brand {
-float: left;
-padding: 8px 20px 0px;
-margin-left: -5px;
-font-size: 20px;
-font-weight: 200;
-line-height: 1;
-color: #fff;
-border:2px solid black;
-}
-
-.navbar .nav {
-  position: relative;
-  left: 0;
-  display: block;
-  float: left;
-  margin: 0 10px 0 0;
-  list-style: none;
-}
-
-.navbar .nav li a {
-  color: black;
-  text-decoration: none;
-  border:2px solid black;
-  padding-right: 32px;
-  padding-left: 32px;
-  background:#dddddd;
-  width:300px;
-  border-radius:25px;
-  -moz-border-radius:25px; /* Old Firefox */
-}
-
-
 li{
    float: left;
    font-size: 16px;
