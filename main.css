@@ -11,7 +11,9 @@ header, hgroup, nav, section {
  line-height: 1;
  color: #fff;
 }
-
+.navbar .brand a:active {
+   background-color: #8A2E2E;
+}
 li{
    float: left;
    font-size: 16px;
