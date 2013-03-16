@@ -91,15 +91,14 @@
 	
 	</div> <!-- row 1 -->
 	<br/>
-	<div ng-controller="CollapseDemoCtrl">
-	<button class="btn" ng-click="isCollapsed = !isCollapsed"><i class="icon-plus"></i>Click here for more!</button>
-	<div collapse="isCollapsed">
 	
-	<div class="well well-large">Some content</div> 
-
-     
-         	</div><!--end of ifcollapsed-->
-      </div><!--CollapseDemoCtrl-->
+	<div ng-controller="CollapseDemoCtrl">
+	<button class="btn" ng-click="isCollapsed = !isCollapsed">Toggle collapse</button>
+	<hr>
+	<div collapse="isCollapsed">
+		<div class="well well-large">Some content</div> 
+	</div>
+</div>
       <hr>
  	<div align="center"><a href="#">Home</a> | <a href="#"> About Us</a> | <a href="#"> Terms of Us</a> |<a href="#">Privacy Statement</a> | <a href="#">Contact Us</a>   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  2013 StoryOnbyTeladiStudio, All Rights Reservered </div>
  </div><!--end of container-->
