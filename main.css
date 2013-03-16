@@ -3,6 +3,11 @@ font-family: "Lobster two",georgia, serif;
 color: #E2E6AC;
 }
 
+header p {
+margin-bottom: 25px;
+}
+
+
 .navbar .brand {
  float: left;
  padding: 8px 20px 0px;
