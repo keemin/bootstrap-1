@@ -12,7 +12,7 @@ header, hgroup, nav, section {
  color: #fff;
 }
 
-.nav ul a:hover{
+.nav a:hover{
    background-color: #8A2E2E;
 }
 
