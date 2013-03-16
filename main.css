@@ -32,10 +32,7 @@ li{
     line-height: 1.5;
    margin: 0 0 1.2em;
   }
-  
-hr{
-  width: 100%;
- }
+
 
 
  .carousel {
@@ -110,10 +107,8 @@ hr{
 .roundrectangle{
   color: white;
   text-decoration: none;
-  border:2px solid black;
   padding-right: 32px;
   padding-left: 32px;
-  background:#dddddd;
   border-radius:25px;
   background-color: #8A2E2E;
   -moz-border-radius:25px; /* Old Firefox */
