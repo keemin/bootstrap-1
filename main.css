@@ -43,7 +43,7 @@ header p {
 	font-family: 'Droid Serif', Georgia, serif;
 }
 
-.carshow h2 ,.carshow a h2{
+.carshow h2 ,.carshow a:hover h2{
 	font-family: "Lobster two";
 	font-weight: normal;
 	color: white;
