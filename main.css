@@ -1,7 +1,10 @@
-header, hgroup, nav, section {
- display: block;
-}
-
+ 
+  h1{
+   font-family: 'Droid Serif';
+   font-style: normal;
+   font-weight: 400;
+   src: local('Droid Serif'), local('DroidSerif'), url(http://themes.googleusercontent.com/static/fonts/droidserif/v3/0AKsP294HTD-nvJgucYTaIbN6UDyHWBl620a-IRfuBk.woff) format('woff');
+  }
 .navbar .brand {
  float: left;
  padding: 8px 20px 0px;
