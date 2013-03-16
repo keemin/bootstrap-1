@@ -17,9 +17,12 @@ header, hgroup, nav, section {
    color:#fff;
 }
 
-
-.container{
- height:100%
+.container {
+width: 1170px;
+}
+.container {
+margin-right: auto;
+margin-left: auto;
 }
 
 
