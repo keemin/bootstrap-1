@@ -23,13 +23,6 @@ header p {
    color:#fff;
 }
 
-.containerbody{
-width: 1170px;
-}
-.containerbody {
-margin-right: auto;
-margin-left: auto;
-}
 
 
 li{
@@ -44,22 +37,23 @@ hr{
   width: 100%;
  }
 
-#sliderFrame {
-position: relative;
-width: 951px;
-margin: 0 auto;
+
+ .carousel {
+ border: 10px solid #FFF;
+	-webkit-transform: rotate(1deg);
+	-moz-transform: rotate(1deg);
+	-ms-transform: rotate(1deg);
+	-o-transform: rotate(1deg);
+	transform: rotate(1deg);
+	filter: progid:DXImageTransform.Microsoft.Matrix( M11=0.9986295347545738, M12=-0.05233595624294383, M21=0.05233595624294383, M22=0.9986295347545738, sizingMethod='auto expand');
+	zoom: 1;
+	-webkit-box-shadow: 10px 10px 20px #002624;
+	-moz-box-shadow: 10px 10px 20px #002624;
+	box-shadow: 10px 10px 20px #002624;
 }
 
-#slider {
-  width: 651px;
-  height: 400px;
-  background: #fff url(loading.gif) no-repeat 50% 50%;
-  position: relative;
-  margin: 0 auto;
-  box-shadow: 0px 1px 5px #999999;
-  animation:myfirst 5s;
-  -moz-animation:myfirst 5s; /* Firefox */
-  -webkit-animation:myfirst 5s; /* Safari and Chrome */
+.carousel .item {
+	max-height: 400px;
 }
 
 @-moz-keyframes myfirst /* Firefox */
