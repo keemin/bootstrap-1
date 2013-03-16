@@ -56,6 +56,44 @@ hr{
 	max-height: 400px;
 }
 
+.carshow {
+	font-family: 'Droid Serif', Georgia, serif;
+}
+
+.carshow h2 {
+	font-family: "Lobster two";
+	font-weight: normal;
+	color: white;
+	margin: 0;
+	padding: 0;
+	padding-top: 10px;
+	color: #E2E6AC;
+	font-size: 1.9em;
+	height: 30px;
+}
+
+.carshow h3 {
+	font-size: 1.2em;
+	margin: 0;
+	padding: 0;
+	color: #712525;
+	height: auto;
+}
+
+.carshow p {
+	font-size:  1.2em;
+	line-height: 1.5em;
+}
+
+.carshow img {
+	border: 5px solid #FFF;
+	-webkit-box-shadow: 5px 5px 10px #002624;
+	-moz-box-shadow: 5px 5px 10px #002624;
+	box-shadow: 5px 5px 10px #002624;
+	margin-top: 20px;
+}
+
+
 @-moz-keyframes myfirst /* Firefox */
 {
   from {background:red;}
@@ -72,13 +110,7 @@ hr{
   text-align:center;
 }
 
-.sliderFrame h1 {
-  font-size: 50px;
-  line-height: 1;
-  color: inherit;
-  letter-spacing: -1px;
-  
-}
+
 
 p {
   display: block;
