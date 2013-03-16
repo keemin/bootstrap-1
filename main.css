@@ -132,6 +132,6 @@ background: #158D90;
  background:#1b1b1b
 }
 
-.navbar-inverse .nav .active > a, .navbar-inverse .nav .active > a:hover, .navbar-inverse .nav .active > a:focus {
+ a {
 background-color: #8A2E2E;
 }
