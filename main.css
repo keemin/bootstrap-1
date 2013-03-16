@@ -92,6 +92,7 @@ p {
   background:#dddddd;
   width:300px;
   border-radius:25px;
+  background-color: #8A2E2E;
   -moz-border-radius:25px; /* Old Firefox */
 
  }
@@ -132,6 +133,3 @@ background: #158D90;
  background:#1b1b1b
 }
 
- a {
-background-color: #8A2E2E;
-}
