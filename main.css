@@ -17,7 +17,7 @@ header p {
  color: #fff;
 }
 
-.navbar-inner .container .nav a .roundrectangle {
+.navbar-inner .container .nav .roundrectangle a {
    background-color: #8A2E2E;
 
    color:#fff;
