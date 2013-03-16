@@ -12,7 +12,7 @@ header, hgroup, nav, section {
  color: #fff;
 }
 
-.nav a:hover{
+.nav .roundrectangle a:hover{
    background-color: #8A2E2E;
 }
 
