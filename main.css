@@ -84,17 +84,17 @@ header p {
 
 
 .carshow #box{
-	-webkit-transform: rotate(2deg);
-	-moz-transform: rotate(2deg);
-	-ms-transform: rotate(2deg);
-	-o-transform: rotate(2deg);
-	transform: rotate(2deg);
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	transform: rotate(0deg);
 	zoom: 1;
 	-webkit-box-shadow: 10px 10px 20px #002624;
 	-moz-box-shadow: 10px 10px 20px #002624;
 	box-shadow: 10px 10px 20px #002624;
         border:groove ;
-       border-color:black;
+       border-color:white;
 }
 
 
