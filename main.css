@@ -19,8 +19,7 @@ header p {
 
 .navbar-inner .container .nav .roundrectangle a{
    background-color: #8A2E2E;
-   width=300px;
-   height=19px;
+
    color:#fff;
 }
 
@@ -99,14 +98,7 @@ hr{
 
 
 
-p {
-  display: block;
-  -webkit-margin-before: 1em;
-  -webkit-margin-after: 1em;
-  -webkit-margin-start: 0px;
-  -webkit-margin-end: 0px;
-   margin: 0 0 10px;
-}
+
 
 .square {
   width: 100px;
@@ -122,7 +114,6 @@ p {
   padding-right: 32px;
   padding-left: 32px;
   background:#dddddd;
-  width:300px;
   border-radius:25px;
   background-color: #8A2E2E;
   -moz-border-radius:25px; /* Old Firefox */
