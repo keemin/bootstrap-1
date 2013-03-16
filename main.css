@@ -2,6 +2,16 @@ header, hgroup, nav, section {
  display: block;
 }
 
+.navbar .brand {
+ float: left;
+ padding: 8px 20px 0px;
+ margin-left: -5px;
+ font-size: 20px;
+ font-weight: 200;
+ line-height: 1;
+ color: #fff;
+ border:2px solid black;
+}
 
 li{
    float: left;
