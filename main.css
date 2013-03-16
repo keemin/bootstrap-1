@@ -94,21 +94,7 @@ hr{
 }
 
 
-@-moz-keyframes myfirst /* Firefox */
-{
-  from {background:red;}
-  to {background:yellow;}
-}
 
-@-webkit-keyframes myfirst /* Safari and Chrome */
-{
-  from {background:red;}
-  to {background:yellow;}
-}
-
-.text-center{
-  text-align:center;
-}
 
 
 
@@ -154,16 +140,6 @@ a{
   text-decoration:none;
   color:black;
 }
-
-.clear-navbar {
-margin-top: 60px;
-}
-
-.row {
-margin-left: -20px;
-}
-
-
 
 
 div{
