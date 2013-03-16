@@ -1,17 +1,8 @@
- 
-  h1{
-   display: block;
-
--webkit-margin-before: 0.67em;
--webkit-margin-after: 0.67em;
--webkit-margin-start: 0px;
--webkit-margin-end: 0px;
-
-  }
-  header {
-font-family: 'Droid Serif', Georgia, serif;
-font-size: 1.2em;
+header h1 {
+font-family: "Lobster two",georgia, serif;
+color: #E2E6AC;
 }
+
 .navbar .brand {
  float: left;
  padding: 8px 20px 0px;
