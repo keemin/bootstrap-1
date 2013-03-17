@@ -89,8 +89,8 @@
 	<a class="btn" ng-click="addSlide()"><i class="icon-plus"></i>Click here for more!</button>
  
 	<div collapse="!isCollapsed" >
-	<div class="row" ng-repeat="slide in slides" >
-	  	<div class="span4 carshow">
+	<div class="row">
+	  	<div class="span4 carshow" ng-repeat="slide in slides">
 	        	<h2>{{slide.title}}</h2><br/>
 		        {{slide.star}}
 		        <div id="box">
