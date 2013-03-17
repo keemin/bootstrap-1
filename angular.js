@@ -10,7 +10,7 @@ function CollapseDemoCtrl($scope) {
                            
   $scope.addSlide = function() {
     $scope.slides.push({
-      title:'Hello',
+      title:['Hello','Wordld', 'Dream'],
       star:'☆☆☆☆☆',
       text:'helloworld'
     });
