@@ -1,6 +1,5 @@
 angular.module('plunker', ['ui.bootstrap']);
 function CollapseDemoCtrl($scope) {
-  $scope.isCollapsed = false;
    $scope.slides = [
     {title:'Happy Prince', text:'High above the city, on a tall column, stood the statue of the Happy Prince.',star:'☆☆☆☆☆'}
   ];
