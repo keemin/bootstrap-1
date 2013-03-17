@@ -1,6 +1,8 @@
 angular.module('plunker', ['ui.bootstrap']);
 function CollapseDemoCtrl($scope) {
- 
+ $scope.slides = [
+    {title:' ', text:' ',star:' '
+  ];
   $scope.addSlide = function() {
     $scope.slides.push({
       title:'Hello',
