@@ -2,8 +2,8 @@ angular.module('plunker', ['ui.bootstrap']);
 function CollapseDemoCtrl($scope) {
  $scope.slides = [
     {title:'Happy Prince', text:'High above the city, on a tall column, stood the statue of the Happy Prince. He was gilded all over with thin leaves of fine gold, for eyes he had two bright sapphires, and a large red ruby glowed on his sword-hilt.He was very much admired indeed. ‘He is as beautiful as a weathercock,’ remarked one of the Town Councillors who wished to gain a reputation for having artistic tastes; ‘only not quite so useful,’ he added, fearing lest people should think him unpractical, which he really was not.
-                           'Why can’t you be like the Happy Prince?’ asked a sensible mother ... ', star:'☆☆☆☆☆ '}
-  ];
+                           'Why can’t you be like the Happy Prince?’ asked a sensible mother ... ', star:'☆☆☆☆☆'}
+                           ];
   $scope.addSlide = function() {
     $scope.slides.push({
       title:'Hello',
