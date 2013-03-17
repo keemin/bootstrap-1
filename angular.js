@@ -9,11 +9,11 @@ function CollapseDemoCtrl($scope) {
                           ];
                            
   $scope.addSlide = function() {
-    $scope.slides.push({
-      title:'Hello',
-      star:'☆☆☆☆☆',
-      text:'helloworld'
-    });
+    $scope.slides.push(
+     { title:'Hello', star:'☆☆☆☆☆',text:'helloworld'},  
+     { title:'Hello', star:'☆☆☆☆☆',text:'helloworld'},  
+     { title:'Hello', star:'☆☆☆☆☆',text:'helloworld'}
+     );
   };
   
 }
