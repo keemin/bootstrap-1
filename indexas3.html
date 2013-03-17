@@ -88,8 +88,8 @@
 	<div ng-controller="CollapseDemoCtrl">
 	<a class="btn" ng-click="addSlide()"><i class="icon-plus"></i>Click here for more!</button>
  
-	<div collapse="!isCollapsed" ng-repeat="slide in slides">
-	<div class="row" >
+	<div collapse="!isCollapsed" >
+	<div class="row" ng-repeat="slide in slides" >
 	  	<div class="span4 carshow">
 	        	<h2>{{slide.title}}</h2><br/>
 		        {{slide.star}}
