@@ -1,3 +1,8 @@
+a{
+  text-decoration:none;
+  color:black;
+}
+
 header h1 {
  font-family: "Lobster two",georgia, serif;
  color: #E2E6AC;
@@ -106,17 +111,11 @@ header p {
  }
  
 
-a{
-  text-decoration:none;
-  color:black;
-}
-
 
 
 div{
  display:block;
 }
-
 body {
 background: #158D90;
 }
