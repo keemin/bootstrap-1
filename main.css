@@ -111,8 +111,6 @@ header p {
  }
  
 
-
-
 div{
  display:block;
 }
@@ -124,3 +122,6 @@ background: #158D90;
  background:#1b1b1b
 }
 
+#highlight{
+  color:blue;
+}
