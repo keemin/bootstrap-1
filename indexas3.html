@@ -88,10 +88,11 @@
 	<div ng-controller="CollapseDemoCtrl">
 	<a class="btn" ng-click="addSlide()"><i class="icon-plus"></i>Click here for more!</button>
 	<div class="row">
+	 <div class="span6" ng-repeat="slide in slides"  >
           <h1> {{slide.title}}</h1>
               {{slide.star}}</br>
               {{slide.text}}
-	
+	</div>
 	</div> <!-- row 2 -->
 	</div><!-- end of isCollapsed-->
 </div><!-- end of CollapsedDemoCtrl-->
