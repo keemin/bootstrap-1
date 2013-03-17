@@ -49,7 +49,7 @@
   <div ng-controller="CarouselDemoCtrl">
   	<carousel interval ="myInterval">
   	 <slide ng-repeat="slide in slides" active="slide.active">
-  	  <a href="#"><img ng-src="{{slide.image}}" style="margin:auto;"></a> 
+  	  <a ng-href="{{slide.link}}" ><img ng-src="{{slide.image}}" style="margin:auto;"></a> 
   	 </slide>
   	</carousel>
   </div><!--CarouselDemoCtrl-->
