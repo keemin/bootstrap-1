@@ -74,7 +74,6 @@
 		</div>
 
 		<div class="span4 carshow">
-			
 			<a href="#"><h2>The Umbrella Man </h2></a><br/>
 			 <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>	
 	                <a href="#"> <div id="box">
@@ -87,8 +86,13 @@
 	
 	<div ng-controller="CollapseDemoCtrl">
 	<a class="btn" ng-click="addSlide()"><i class="icon-plus"></i>Click here for more!</button>
-	<div class="row">
-	 <div class="span6" ng-repeat="slide in slides"  >
+	<div class="row" >
+	 <div class="span6" ng-repeat="slide in slides" >
+          <h1> {{slide.title}}</h1>
+              {{slide.star}}</br>
+              {{slide.text}}
+	</div>
+	 <div class="span6" ng-repeat="slide in slides" >
           <h1> {{slide.title}}</h1>
               {{slide.star}}</br>
               {{slide.text}}
