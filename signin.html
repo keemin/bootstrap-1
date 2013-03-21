@@ -1,0 +1,153 @@
+<!doctype html>
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!--[if ie]><meta http-equiv='X-UA-Compatible' content="IE=edge,IE=9,IE=8,chrome=1" /><![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
+    
+	<title>StoryOn - Login/Signup </title>
+    
+	<meta name="description" content="" />
+	<meta name="author" content="Teladi Futuristics" />
+        
+        <link rel="stylesheet" href="css/style.css" />
+        <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic|PT+Sans+Caption:400,700' rel='stylesheet' type='text/css' />        
+        
+        <!-- SCRIPT IE FIXES -->  
+        <!--[if lt IE 9]>
+        <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]--> 
+        <!-- END SCRIPT IE FIXES-->
+      
+      
+        <!-- START TEMPLATE JavaScript load -->
+    	<script type="text/javascript" src="js/libs/jquery-1.7.2.min.js"></script>    
+        <script type="text/javascript" src="js/libs/modernizr.custom.min.js"></script> 
+        <script type="text/javascript" src="js/libs/jquery.wipetouch.js"></script>   
+             
+        <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBttxrYoBq8srteD7evmDqnaK6V2Uun42o&amp;sensor=true"></script>
+        
+        <script type="text/javascript" src="js/libs/jquery.gmap.min.js"></script>
+        <script type="text/javascript" src="js/greensock/minified/TweenMax.min.js"></script>    
+        <script type="text/javascript" src="js/libs/jquery.timer.js"></script>
+        <script type="text/javascript" src="js/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="js/libs/jquery.mousewheel.min.js"></script>
+        <script type="text/javascript" src="js/mediacreed/scrollbar/mc.custom.list.js"></script>
+        <script type="text/javascript" src="js/mc.modules.animation.js"></script> 
+        <link rel="stylesheet" href="js/video-js/video-js.min.css" media="screen" />
+        <script type="text/javascript" src="js/video-js/video.min.js"></script>
+        <!-- END TEMPLATE JavaScript load -->
+        
+        <!--<script src="http://vjs.zencdn.net/c/video.js"></script>    
+        Careful when using the online version because the destroy method throws an error.    
+        Our version has the fix on destroy method. Until it updates we recommend using the JS file from the template.    
+        -->
+        <script>
+            _V_.options.flash.swf = "js/video-js/video-js.swf";
+            _V_.options.techOrder = ["html5", "flash", "links"];
+            var params = {};
+            params.bgcolor = "#000000";
+            params.allowFullScreen = "true";       
+            _V_.options.flash.params = params;
+    
+        </script>    
+</head>
+
+<body>
+<div class="main-template-loader"></div>
+
+<div id="template-wrapper">
+
+    <div id="module-container"><!-- start #module-container -->
+        <div id="module-background-holder">
+        	<img src="assets/media/about_us/philosophy/backgroundPhilosophy.jpg" onload="animateModuleBackground(this)" class="module-background" id="module-background" alt="" />
+        </div>	
+        <div id="module-container-holder" class="module-position-cc"  data-id="module-position-cc">
+            <div id="module-text-page"  class="module-philosophy shadow-side-all">
+                <div id="module-wrapper">
+                    <div id="module-text-page-holder-philosophy" style="width:86%;">             	
+                         <div class="title-holder">
+                        	<span class="title-text_normal">Login</span>
+                        </div>
+                        <div class="custom-separator"></div>
+						
+						
+							<form id="login-form">
+										<div class="form-input-large form-input-border">
+											<div class="form-input-background opacity_2"></div>
+												<input id="email" type="text" name="email" value="" placeholder="login email">
+										</div>   
+										<div class="form-input-large form-input-border">
+											<div class="form-input-background opacity_2"></div>
+											<input id="pwd" type="password" name="phone" value="" placeholder="password"/>
+										</div>
+										<div id="response-form">
+											<p>Message delivered! Thank You!</p>
+											<span id="form-warning">PLEASE FILL ALL FIELDS!</span>
+											<span id="server-error"></span>
+										</div>
+										<div class="form-buttons">
+											<div id="form-reset" style="background-color:CCC;">
+												<p>Login with Facebook</p>
+											</div> 
+											<div id="form-send" data-sending-txt="SENDING...">
+												<p>Regular Login</p>
+											</div>
+										</div>
+										
+									</form>
+								
+								<div class="title-holder">
+                        	<span class="title-text_normal">Signup</span>
+                        </div>
+                        <div class="custom-separator"></div>
+								
+							<form id="signup-form">
+										<div class="form-input-large form-input-border">
+											<div class="form-input-background opacity_2"></div>
+											<input id="email" type="text" name="email" value="" placeholder="login email"/>
+										</div>
+										<div class="form-input-large form-input-border">
+											<div class="form-input-background opacity_2"></div>
+											<input id="nickname" type="text" name="nickname" value="" placeholder="display name"/>
+										</div>   
+										<div class="form-input-large form-input-border">
+											<div class="form-input-background opacity_2"></div>
+											<input id="pwd1" type="password" name="phone" value="" placeholder="password"/>
+										</div>
+										<div class="form-input-large form-input-border">
+											<div class="form-input-background opacity_2"></div>
+											<input id="pwd2" type="password" name="phone" value="" placeholder="confirm password"/>
+										</div>
+										<div id="response-form">
+											<p>Message delivered! Thank You!</p>
+											<span id="form-warning">PLEASE FILL ALL RQUIRED (*) FIELDS!</span>
+											<span id="server-error"></span>
+										</div>
+										<div class="form-buttons">
+											<div id="form-reset">
+												<p>Signup with Facebook</p>
+											</div> 
+											<div id="form-send" data-sending-txt="SENDING...">
+												<p>Regular Signup</p>
+											</div>
+										</div>
+										
+									</form>
+								
+                    </div>
+                </div>                	 
+            </div>
+            <div id="module-scrollbar-holder">
+                <div id="module-scrollbar-background" class="opacity_4"></div>
+                <div id="module-scrollbar-dragger"></div>
+            </div>    
+        </div>
+            
+    </div><!-- end #module-container -->
+</div>
